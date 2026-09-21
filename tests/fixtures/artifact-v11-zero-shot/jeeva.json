@@ -1,0 +1,36 @@
+{
+  "base_model": "fixture/model",
+  "calibration": {},
+  "format_version": 11,
+  "kind": "zero_shot",
+  "provenance": {
+    "created_at": "2026-01-01T00:00:00+00:00",
+    "versions": {
+      "jeeva": "0.1.0",
+      "python": "3.12.0",
+      "torch": "2.6.0",
+      "transformers": "4.49.0"
+    }
+  },
+  "runtime": {
+    "architecture": "causal",
+    "scorer": "letter",
+    "weights": "base"
+  },
+  "source": {
+    "local_files_only": false,
+    "model": {
+      "requested_id": "fixture/model",
+      "requested_revision": "release",
+      "resolved_id": "fixture/model",
+      "resolved_revision": "0123456789abcdef"
+    },
+    "tokenizer": {
+      "requested_id": "fixture/model",
+      "requested_revision": "release",
+      "resolved_id": "fixture/model",
+      "resolved_revision": "0123456789abcdef"
+    }
+  },
+  "schema_protocol": "decision-schema-v4"
+}
